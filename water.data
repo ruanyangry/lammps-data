@@ -1,0 +1,39 @@
+LAMMPS output created by EMC v9.4.2, build Jul 31 2017 20:20:08
+
+           3  atoms
+           2  bonds
+           1  angles
+
+           7  atom types
+           1  bond types
+           1  angle types
+
+             0    3.104293092  xlo xhi
+             0    3.104293092  ylo yhi
+             0    3.104293092  zlo zhi
+
+Masses
+
+       1   15.99940  # ow4
+       2    1.00790  # hw
+       3   12.01100  # ca
+       4    1.00790  # ha
+       5   15.99940  # os
+       6   12.01100  # c
+       7   15.99940  # o
+
+Atoms
+
+       1       1   1 -0.8476   1.5125573390   1.5695799971   1.4990947113  # ow4
+       2       1   2  0.4238   2.0171009148   0.7496857428   1.6367913159  # hw
+       3       1   2  0.4238   1.7156310666   2.0778688252   2.3096463557  # hw
+
+Bonds
+
+       1       1       1       2  # ow4,hw
+       2       1       1       3  # ow4,hw
+
+Angles
+
+       1       1       2       1       3  # hw,ow4,hw
+

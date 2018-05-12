@@ -1,0 +1,31 @@
+# Variables
+
+variable	cutoff		index	9.5
+variable	charge_cutoff	index	9.5
+
+# Masses
+
+mass		1   15.99940  # ow4
+mass		2    1.00790  # hw
+
+# Potentials
+
+pair_style	lj/cut/coul/long ${cutoff} ${charge_cutoff}  # 9.5
+bond_style	harmonic
+angle_style	harmonic
+pair_modify	mix geometric tail yes
+special_bonds	lj/coul 0 0 0.5
+
+# Pair Coeffs
+
+pair_coeff	 1  1    0.15540    3.16557  # ow4,ow4
+pair_coeff	 2  2    0.00000    0.95720  # hw,hw
+
+# Bond Coeffs
+
+bond_coeff	1  600.00000    0.95720  # ow4,hw
+
+# Angle Coeffs
+
+angle_coeff	1   75.00000  109.50000  # hw,ow4,hw
+

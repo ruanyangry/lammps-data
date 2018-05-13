@@ -1,0 +1,7 @@
+mobley_1017962.data     # single molecule data file
+mobley_1017962_pack.pdb    # packmol output file
+295           # number of molecules
+7              # atom_style = full(7), atom_style=bond(6)
+4              # mask =1 (atoms),mask=2(atoms,bonds),mask=3(atoms,bonds,angles),mask=4(atoms,bonds,angles,dihedrals),mask=5(atoms,bonds,angles,dihedrals,impropers)
+0. 0. 0. 41.50    41.50    41.50 # box size
+on           # coeffes
